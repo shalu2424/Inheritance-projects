@@ -1,0 +1,24 @@
+class Camera {
+
+    void click() {
+        System.out.println("Camera captures photo");
+    }
+}
+
+class DroneCamera extends Camera {
+
+    void fly() {
+        System.out.println("Flies and takes aerial photo");
+    }
+}
+
+public class Example4 {
+
+    public static void main(String[] args) {
+
+        DroneCamera drone = new DroneCamera();
+
+        drone.click();
+        drone.fly();
+    }
+}
