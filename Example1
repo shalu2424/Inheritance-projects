@@ -1,0 +1,25 @@
+ class Cash {
+
+    void pay() {
+        System.out.println("Executing pay()");
+    }
+}
+
+class OnlinePayment extends Cash {
+
+    void transfer() {
+        System.out.println("Executing transfer()");
+    }
+}
+
+public class Example2 {
+
+    public static void main(String[] args) {
+
+        OnlinePayment payment = new OnlinePayment();
+
+        payment.pay();
+        payment.transfer();
+    }
+}
+
