@@ -1,0 +1,24 @@
+class Aeroplane {
+
+    void fly() {
+        System.out.println("Executing fly()");
+    }
+}
+
+class FighterJet extends Aeroplane {
+
+    void attack() {
+        System.out.println("Executing attack()");
+    }
+}
+
+public class Example2 {
+
+    public static void main(String[] args) {
+
+        FighterJet obj = new FighterJet();
+
+        obj.fly();
+        obj.attack();
+    }
+}
