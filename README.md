@@ -25,12 +25,3 @@ In multilevel inheritance, the properties of a **single superclass are derived b
 * Classes and Objects
 * Single level Inheritance
 * Multilevel Inheritance
-
-
-
-
-**Shalu Kumari Singh**
-
-🔗 GitHub: https://github.com/yourusername
-🔗 LinkedIn: https://linkedin.com/in/yourprofile
-🌐 Portfolio: https://yourportfolio.com
