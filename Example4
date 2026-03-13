@@ -1,0 +1,27 @@
+class Computer {
+
+    int val = 10;
+
+    void compute() {
+        System.out.println("Executing compute()");
+    }
+}
+
+class Laptop extends Computer {
+
+    void portable() {
+        System.out.println("Executing portable()");
+    }
+}
+
+public class Example5 {
+
+    public static void main(String[] args) {
+
+        Laptop ref = new Laptop();
+
+        System.out.println(ref.val);
+        ref.compute();
+        ref.portable();
+    }
+}
