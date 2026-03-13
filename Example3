@@ -1,0 +1,24 @@
+class Book {
+
+    void read() {
+        System.out.println("Executing read()");
+    }
+}
+
+class EBook extends Book {
+
+    void download() {
+        System.out.println("Executing download()");
+    }
+}
+
+public class Example3 {
+
+    public static void main(String[] args) {
+
+        EBook ref = new EBook();
+
+        ref.read();
+        ref.download();
+    }
+}
