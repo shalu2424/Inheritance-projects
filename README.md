@@ -57,11 +57,11 @@ Hybrid Inheritance is a combination of two or more inheritance types.
 Example:
 
         A
-       / \
-      B   C
-     /     \
-    D       E
-            F
+       /   \
+      B     C
+     /     / \
+    D     F  E
+            
 
 Hybrid inheritance combines:Hierarchical,Multilevel,Multiple.
 
