@@ -1,0 +1,11 @@
+class A {
+}
+
+class B {
+}
+
+// This is NOT allowed in Java
+class C extends A, B {
+}
+
+This gives Compile Time Error (CTE).
