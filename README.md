@@ -24,13 +24,6 @@ Here B and C inherit properties of A.
 
 Multiple Inheritance occurs when a single subclass tries to inherit from more than one superclass.
 
-Example:
-
-A     B
- \   /
-   C
-In Java
-
 Java does NOT support multiple inheritance using classes because it creates ambiguity problems.
 Diamond Ambiguity Problem:
 
